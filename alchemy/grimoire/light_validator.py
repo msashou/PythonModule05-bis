@@ -11,5 +11,5 @@ def validate_ingredients(ingredients: str) -> str:
             found = True
 
     if found:
-        return (f"{item} - VALID")
+        return (f"{ingredients} - VALID")
     return (f"{ingredients} - INVALID")
